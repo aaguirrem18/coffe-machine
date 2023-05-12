@@ -11,7 +11,8 @@
 
 # Drink Machine
 
-Coffee Machine is an awesome console application that from a few input parameters (drink type, amount of money, number of sugars, extra hot check) is capable to order a drink and show a cool message of the desired drink.
+console application that from a few input parameters (drink type, amount of money, number of sugars, extra hot check)
+is capable to order a drink and show a cool message of the desired drink.
 
 ## How it works
 
