@@ -1,3 +1,14 @@
+* Clean code
+* SOLID principles
+* Decoupling
+* Design patterns
+* Error handling
+* Unit testing
+* TDD
+* Hexagonal architecture
+
+-----------------------------------------------------------------------------------------------------------
+
 # Coffee Machine
 
 Coffee Machine is an awesome console application that from a few input parameters (drink type, amount of money, number of sugars, extra hot check) is capable to order a drink and show a cool message of the desired drink.
@@ -57,16 +68,6 @@ You have ordered a coffee with 2 sugars (stick included).
 ```
 You have ordered a coffee extra hot with 2 sugars (stick included)    
 ```
-
-* Clean code
-* SOLID principles
-* Decoupling
-* Design patterns
-* Error handling
-* Unit testing
-* TDD
-* Hexagonal architecture
-
 
 ## Project set up
 
