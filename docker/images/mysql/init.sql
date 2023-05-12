@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS orders (
+  `id` INT(10) unsigned NOT NULL AUTO_INCREMENT,
+  `drink_type` VARCHAR(20) NOT NULL,
+  `sugars` TINYINT(2) NOT NULL,
+  `stick` TINYINT(1) NOT NULL,
+  `extra_hot` TINYINT(1) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS billings (
+  `id` INT(10) unsigned NOT NULL AUTO_INCREMENT,
+  `drink` VARCHAR(20) NOT NULL,
+  `money` decimal(8,2) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
